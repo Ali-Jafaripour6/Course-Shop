@@ -37,7 +37,7 @@ a {
 
 /*contact section*/
 .container-fluid-custom {
-  background-color: rgb(0, 0, 154);
+  background-color: rgb(255, 174, 0);
   color: white;
   line-height: 30px;
 }
@@ -47,7 +47,7 @@ a {
 }
 
 .container-fluid-custom .contact i {
-  color: orange;
+  color: rgb(0, 60, 255);
   margin-right: 5px;
 }
 
@@ -71,7 +71,7 @@ a {
 }
 
 .social-media a:hover {
-  color: orange;
+  color: rgb(0, 17, 255);
 }
 
 /*end contact section*/
