@@ -1,0 +1,81 @@
+.section-title span {
+  display: inline-block;
+}
+
+.section-title span::before {
+  content: "";
+  width: 40px;
+  height: 3px;
+  background-color: orange;
+  position: absolute;
+  top: 10px;
+  right: -50px;
+}
+
+.section-title span::after {
+  content: "";
+  width: 40px;
+  height: 3px;
+  background-color: orange;
+  position: absolute;
+  top: 10px;
+  right: 100px;
+}
+
+.card-body img {
+  width: 20px;
+  filter: brightness(0.5);
+  margin-right: 5px;
+  margin-top: -35px;
+}
+
+.card-body .course-title {
+  top: -18px;
+  right: 40px;
+}
+
+.card-body .course-title a,
+p {
+  font-size: 10px;
+  color: white;
+}
+
+.card {
+  box-shadow: 2px 2px 2px black;
+  background-color: rgb(92, 92, 255);
+  cursor: pointer;
+}
+
+.card-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-in;
+}
+
+.card:hover .card-overlay {
+  opacity: 1;
+}
+
+.card-body {
+  margin: 15px;
+}
+
+.card-overlay p {
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+}
+
+.course-wrapper {
+  background-image: url("../img/pngbackground.png");
+  background-attachment: fixed;
+  background-repeat: none;
+}

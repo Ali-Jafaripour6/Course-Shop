@@ -1,0 +1,125 @@
+@font-face {
+  font-family: Vazir-Medium;
+  src: url(../fonts/Vazir.eot) format(eot);
+  src: url(../fonts/Vazir.woff) format(woff);
+  src: url(../fonts/Vazir.woff2) format(woff2);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir-Bold;
+  src: url(../fonts/Vazir-Bold.eot) format(eot);
+  src: url(../fonts/Vazir-Bold.woff) format(woff);
+  src: url(../fonts/Vazir-Bold.woff2) format(woff2);
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Vazir-Medium;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*contact section*/
+.container-fluid-custom {
+  background-color: rgb(0, 0, 154);
+  color: white;
+  line-height: 30px;
+}
+
+.container-fluid-custom .contact {
+  font-size: 14px;
+}
+
+.container-fluid-custom .contact i {
+  color: orange;
+  margin-right: 5px;
+}
+
+.container-fluid-custom .contact i span {
+  color: white;
+  margin: 5px;
+}
+/*contact section*/
+
+.social-media {
+  direction: ltr;
+}
+
+.social-media i {
+  vertical-align: -2px;
+  margin-right: 5px;
+}
+
+.social-media a {
+  color: white;
+}
+
+.social-media a:hover {
+  color: orange;
+}
+
+/*end contact section*/
+
+.nav {
+  overflow: hidden;
+  position: sticky;
+  background-color: white;
+  top: 0px;
+  z-index: 999;
+}
+
+.nav a {
+  float: right;
+  color: rgb(33, 36, 38);
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 14px;
+}
+
+.nav a:hover {
+  border-bottom: 2px solid blue;
+}
+
+.icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .nav a:not(:first-child) {
+    display: none;
+  }
+  .nav a.icon {
+    display: block;
+    float: left;
+  }
+  .nav.responsive {
+    position: relative;
+  }
+  .nav.responsive a.icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+}

@@ -1,0 +1,34 @@
+.stat-section-wrapper {
+  background-color: #ffc412;
+  height: 400px;
+  margin-top: 150px;
+}
+.stat-section-wrapper img {
+  margin-top: 10px;
+}
+
+.stat-section-wrapper .count {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  margin: 10px;
+}
+
+.stat-section-wrapper .count-title {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+  .stat-section-wrapper {
+    height: 1000px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .stat-section-wrapper {
+    height: 800px;
+  }
+  .stat-section-wrapper img {
+    margin-top: 90px;
+  }
+}

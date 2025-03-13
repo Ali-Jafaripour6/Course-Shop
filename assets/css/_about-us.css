@@ -1,0 +1,39 @@
+.about-us-left-side {
+  background-color: rgb(105, 24, 255);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.about-us-left-side h4 {
+  color: white;
+  border-bottom: 2px solid rgb(88, 0, 110);
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.about-us-left-side p {
+  font-size: 14px;
+  padding-top: 10px;
+  line-height: 28px;
+}
+
+.about-us-left-side a {
+  color: white;
+  background-color: orange;
+  padding: 5px 10px;
+  float: left;
+  margin-left: 20px;
+  font-size: 15px;
+  border-radius: 2px;
+  transition: 0.3s ease;
+}
+
+.about-us-left-side a:hover {
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-us-right-side {
+    display: none;
+  }
+}

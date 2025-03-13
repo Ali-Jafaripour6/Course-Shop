@@ -1,0 +1,101 @@
+.topic-section-wrapper {
+  background-image: url("../img/hd-wallpaper.png");
+  background-repeat: none;
+  height: 600px;
+  background-position: center;
+  margin-top: 20px;
+}
+
+.topic-section-wrapper .card {
+  background-color: white;
+}
+
+.topic-section-wrapper .card p,
+a {
+  color: black;
+}
+
+.topic-section-wrapper .card-body {
+  margin: 10px;
+}
+
+.topic-wrapper .card-header img {
+  transition: 0.5s ease;
+}
+
+.topic-wrapper:hover img {
+  transform: scale(1.4) rotate(8deg);
+}
+
+.topic-section-wrapper .card-header {
+  overflow: hidden;
+}
+
+.topic-wrapper .card {
+  box-shadow: 0px 2px 3px gray;
+}
+
+.topic-wrapper .card-body a {
+  font-size: 23px;
+}
+
+.topic-wrapper .card-body {
+  text-align: center;
+  margin: 12px 0;
+}
+
+.card-body .post-date {
+  top: -37px;
+  right: 15px;
+  width: 30px;
+  text-align: center;
+}
+
+.post-date div:first-child {
+  background-color: white;
+  border-radius: 3px 3px 0 0;
+}
+
+.post-date div:last-child {
+  background-color: black;
+  color: white;
+  border-radius: 0 0 3px 3px;
+}
+
+.topic-wrapper .card-body p {
+  font-size: 10px;
+  margin-top: 5px;
+  color: rgb(81, 81, 81);
+}
+
+.card {
+  border-radius: 5px;
+}
+
+.card-footer {
+  text-align: center;
+  border-top: 1px solid rgb(126, 126, 126);
+}
+.topic-wrapper .card-footer ul li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.topic-wrapper .card-footer ul li i {
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 503px) {
+  .topic-wrapper .card-footer ul li span {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .topic-wrapper .card-footer ul li span {
+    font-size: 9px;
+  }
+  .topic-wrapper .card-footer ul li i {
+    margin-left: 2px;
+  }
+}
